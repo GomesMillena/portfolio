@@ -2,7 +2,9 @@ function add_active_to_els(container, elements){
 
     let add_active_to_els_func = function(){
 
+        console.log("container recebido", container);
         let container_el = document.querySelector(container);
+         console.log("container achado", container_el);
 
         if(container_el.getBoundingClientRect().top <= (window.innerHeight / 2)){
 
@@ -10,7 +12,7 @@ function add_active_to_els(container, elements){
 
             if(!all_elements[0].classList.contains('active')){
 
-                for (var i = 0; i < all_elements.length; i++) {
+                for ( i = 0; i < all_elements.length; i++) {
                     all_elements[i].classList.add('active');
                 }
 
@@ -26,4 +28,5 @@ function add_active_to_els(container, elements){
 
 window.onload = function(){
     add_active_to_els('.skill-container', '.skill-item-list .item');
+    add_active_to_els('.portfolio-section', '.portfolio-section .portfolio-card');
 }
