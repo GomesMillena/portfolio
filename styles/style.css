@@ -213,20 +213,20 @@ a:hover {
 }
 
 .skill-item .skill-item-list .item.active#git::after {
-    width: 20%;
+    width: 30%;
 }
 
 .skill-item .skill-item-list .item.active#Jquery::after {
-    width: 25%;
+    width: 30%;
 }
 
 .skill-item .skill-item-list .item.active#Bootstrap::after {
-    width: 25%;
+    width: 30%;
 }
 
 /*Cards*/
 .portfolio-card {
-    border: 1px solid #218C96;
+    border: 2px solid #218C96;
     margin-bottom: 40px;
     border-radius: 5px;
     margin-right: auto;
@@ -245,7 +245,7 @@ a:hover {
 }
 
 .portfolio-card .text-container {
-    padding: 20px;
+    padding: 5px;
 }
 
 .portfolio-card .text-container .title {
@@ -344,9 +344,10 @@ a:hover {
 
     }
 
-    .portfolio-card {
+    /*.portfolio-card {
         width: 100%;
     }
+    */
 }
 
 /* container? or info container verificar classe na pag*/
